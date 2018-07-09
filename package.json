@@ -1,5 +1,5 @@
 {
-  "name": "fastify-fast-helmet-wrapper",
+  "name": "fastify-fast-helmet",
   "version": "0.1.0",
   "description": "Important security headers for Fastify",
   "scripts": {
