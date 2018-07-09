@@ -1,0 +1,8 @@
+node version: v10.6.0
+platform: darwin
+cpus: [{"model":"Intel(R) Core(TM) i7-5557U CPU @ 3.10GHz","speed":3100,"times":{"user":79480220,"nice":0,"sys":43381020,"idle":312349990,"irq":0}},{"model":"Intel(R) Core(TM) i7-5557U CPU @ 3.10GHz","speed":3100,"times":{"user":44229770,"nice":0,"sys":18692540,"idle":372266980,"irq":0}},{"model":"Intel(R) Core(TM) i7-5557U CPU @ 3.10GHz","speed":3100,"times":{"user":76730630,"nice":0,"sys":36748840,"idle":321709860,"irq":0}},{"model":"Intel(R) Core(TM) i7-5557U CPU @ 3.10GHz","speed":3100,"times":{"user":45097680,"nice":0,"sys":18167560,"idle":371924010,"irq":0}}]
+
+Average req/sec in 3 times 10s test
+with no plugin: 20591.43
+with fastify-helmet: 14640.20
+with fastify-fast-helmet: 16830.60
