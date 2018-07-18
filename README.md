@@ -21,19 +21,20 @@ This plugin uses a set of helmet plugins for fastify instead of the helmet middl
 
 `fastify-fast-helmet` is a collection of 12 smaller middleware functions that set HTTP headers.
 
-| Module | Description | Default? |
-|---|---|---|
-| [fastify-csp](https://github.com/poppinlp/fastify-csp) | for setting Content Security Policy | |
-| [fastify-expect-ct](https://github.com/poppinlp/fastify-expect-ct) | for handling Certificate Transparency | |
-| [fastify-dns-prefetch-control](https://github.com/poppinlp/fastify-dns-prefetch-control) | controls browser DNS prefetching | ✓ |
-| [fastify-frame-guard](https://github.com/poppinlp/fastify-frame-guard) | to prevent clickjacking | ✓ |
-| [fastify-hide-powered-by](https://github.com/poppinlp/fastify-hide-powered-by) | to remove the X-Powered-By header | ✓ |
-| [fastify-hpkp](https://github.com/poppinlp/fastify-hpkp) | for HTTP Public Key Pinning | |
-| [fastify-hsts](https://github.com/poppinlp/fastify-hsts) | for HTTP Strict Transport Security | ✓ |
-| [fastify-ie-no-open](https://github.com/poppinlp/fastify-ie-no-open) | sets X-Download-Options for IE8+ | ✓ |
-| [fastify-no-cache](https://github.com/poppinlp/fastify-no-cache) | to disable client-side caching | |
-| [fastify-no-sniff](https://github.com/poppinlp/fastify-no-sniff) | to keep clients from sniffing the MIME type | ✓ |
-| [fastify-referrer-policy](https://github.com/poppinlp/fastify-referrer-policy) | to hide the Referer header | |
+| Module | Option | Description | Default? |
+|---|---|---|---|
+| [fastify-csp](https://github.com/poppinlp/fastify-csp) | `contentSecurityPolicy` | for setting Content Security Policy | |
+| [fastify-expect-ct](https://github.com/poppinlp/fastify-expect-ct) | `expectCt` | for handling Certificate Transparency | |
+| [fastify-dns-prefetch-control](https://github.com/poppinlp/fastify-dns-prefetch-control) | `dnsPrefetchControl` | controls browser DNS prefetching | ✓ |
+| [fastify-frame-guard](https://github.com/poppinlp/fastify-frame-guard) | `frameguard` | to prevent clickjacking | ✓ |
+| [fastify-hide-powered-by](https://github.com/poppinlp/fastify-hide-powered-by) | `hidePoweredBy` | to remove the X-Powered-By header | ✓ |
+| [fastify-hpkp](https://github.com/poppinlp/fastify-hpkp) | `hpkp` | for HTTP Public Key Pinning | |
+| [fastify-hsts](https://github.com/poppinlp/fastify-hsts) | `hsts` | for HTTP Strict Transport Security | ✓ |
+| [fastify-ie-no-open](https://github.com/poppinlp/fastify-ie-no-open) | `ieNoOpen` | sets X-Download-Options for IE8+ | ✓ |
+| [fastify-no-cache](https://github.com/poppinlp/fastify-no-cache) | `noCache` | to disable client-side caching | |
+| [fastify-no-sniff](https://github.com/poppinlp/fastify-no-sniff) | `noSniff` | to keep clients from sniffing the MIME type | ✓ |
+| [fastify-referrer-policy](https://github.com/poppinlp/fastify-referrer-policy) | `referrerPolicy` | to hide the Referer header | |
+| [fastify-xss-filter](https://github.com/poppinlp/fastify-xss-filter) | `xssFilter` | adds some small XSS protections | ✓ |
 
 ## Difference
 
