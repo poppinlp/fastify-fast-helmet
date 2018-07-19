@@ -72,7 +72,7 @@ app.listen(3000, err => {
 
 ## Changelog
 
-- 0.1.0:
+- 0.3.0:
   - Init version
 
 [ci-img]: https://img.shields.io/travis/poppinlp/fastify-fast-helmet.svg?style=flat-square

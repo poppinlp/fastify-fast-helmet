@@ -1,7 +1,7 @@
 const fp = require('fastify-plugin');
 
 const MODS = {
-	csp: require('fastify-csp'),
+	contentSecurityPolicy: require('fastify-csp'),
 	hpkp: require('fastify-hpkp'),
 	hsts: require('fastify-hsts'),
 	expectCt: require('fastify-expect-ct'),
