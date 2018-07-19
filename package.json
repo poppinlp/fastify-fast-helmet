@@ -2,6 +2,7 @@
   "name": "fastify-fast-helmet",
   "version": "0.1.0",
   "description": "Important security headers for Fastify",
+  "main": "src/index.js",
   "scripts": {
     "benchmark": "node benchmarks/benchmark.js",
     "fmt": "prettier src/**.js test/**.js --write",
@@ -15,6 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/poppinlp/fastify-fast-helmet.git"
   },
+  "files": [
+    "src"
+  ],
   "keywords": [
     "fastify",
     "fastify-plugin",
